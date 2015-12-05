@@ -1,5 +1,5 @@
 working_dir <- "C:/Users/Alana/Dropbox/ceyx/snapp_4Dec2015"
-file <- "project_data.txt"
+file <- "mod_structure.txt"
 
 pyrad_structure_into_nexus <- function(working_dir,file) {
 
@@ -52,5 +52,5 @@ finaloutput <- rbind("",finaloutput)
 finaloutput <- rbind("#NEXUS",finaloutput)
 
 write.table(finaloutput,"SNAPP.nex",col.names=FALSE,row.names=FALSE,quote=FALSE)
-
+}
 
