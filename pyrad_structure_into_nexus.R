@@ -1,5 +1,5 @@
-working_dir <- "C:/Users/Alana/Dropbox/ceyx/snapp_4Dec2015"
-file <- "mod_structure.txt"
+#working_dir <- "C:/Users/Alana/Dropbox/ceyx/snapp_4Dec2015"
+#file <- "mod_structure.txt"
 
 pyrad_structure_into_nexus <- function(working_dir,file) {
 
