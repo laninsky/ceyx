@@ -1,11 +1,8 @@
-#working_dir <- "C:/Users/Alana/Dropbox/ceyx/snapp_4Dec2015"
-#file <- "mod_structure.txt"
-
-pyrad_structure_into_nexus <- function(working_dir,file) {
+pyrad_structure_into_nexus <- function(working_dir,filename) {
 
 setwd(working_dir)
 library(stringr)
-temp <- read.table(file,header=FALSE,stringsAsFactors=FALSE,sep=" ")
+temp <- read.table(filename,header=FALSE,stringsAsFactors=FALSE,sep=" ")
 
 no_taxa <- dim(temp)[1]/2
 no_loci <- dim(temp)[2]-1
