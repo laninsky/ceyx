@@ -5,6 +5,8 @@ pyrad_structure_into_nexus("working_dir","filename")
 
 e.g. pyrad_structure_into_nexus("C:/Users/Alana/Dropbox/ceyx/snapp_4Dec2015","mod_structure.txt")
 
+The output will be placed in your working directory, and will be named "SNAPP.nex"
+
 This script will also work on the structure.txt/mod_structure.txt file output by https://github.com/laninsky/ambigoos_into_structure
 
 # Phasing individuals into alleles
@@ -14,3 +16,4 @@ phasing_SNAPP_nex("working_dir","filename")
 
 e.g. phasing_SNAPP_nex("C:/Users/a499a400/Dropbox/ceyx/snapp_4Dec2015","SNAPP.nex")
 
+The output will be placed in your working directory, and will be named "individual_SNAPP.nex"
