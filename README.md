@@ -17,3 +17,11 @@ phasing_SNAPP_nex("working_dir","filename")
 e.g. phasing_SNAPP_nex("C:/Users/a499a400/Dropbox/ceyx/snapp_4Dec2015","SNAPP.nex")
 
 The output will be placed in your working directory, and will be named "individual_SNAPP.nex"
+
+### Version history
+v0.0 version used in ceyx TBD
+
+This script wouldn't be possible without:
+R: R Core Team. 2015. R: A language and environment for statistical computing. URL http://www.R-project.org/. R Foundation for Statistical Computing, Vienna, Austria. https://www.r-project.org/
+
+Wickham, H., stringr: Simple, Consistent Wrappers for Common String Operations
