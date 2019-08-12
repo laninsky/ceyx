@@ -1,4 +1,6 @@
 # pyRAD_structure_into_nexus
+Originally located at: https://github.com/laninsky/pyRAD_structure_into_nexus
+
 Take a structure file with no locus/SNP header row or population identifier row and convert it into a nexus format. After pasting the script into R (or sourcing it), usage is:
 
 pyrad_structure_into_nexus("working_dir","filename")
